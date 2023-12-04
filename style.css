@@ -1,0 +1,381 @@
+/* CSS RESET */
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navgivation Bar */
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111111;
+    font-family: 'Stigma Serif Display Regular';
+    src: url(https://cdn.discordapp.com/attachments/1041717854459928771/1180927245934665778/Stigma_Serif_Display_Regular.otf);
+}
+
+nav .logo{
+    width: 70px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+li a{
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 25px;
+    opacity: 0.8;
+    transition: opacity 0.3s
+}
+
+li a:hover{
+    opacity: 1;
+}
+
+.navButton{
+    font-family: 'Stigma Serif Display Regular';
+    src: url(https://cdn.discordapp.com/attachments/1041717854459928771/1180927245934665778/Stigma_Serif_Display_Regular.otf);
+    background-color: #111111;
+    margin-left: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    width: 90px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #fff;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.navButton:hover {
+    opacity: 1;
+    border-color: #fff;
+}
+
+.navButton a {
+    color: inherit;
+    font-size: 1.2rem;
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+.navButton:hover a {
+    opacity: 1;
+}
+
+/* Video */
+
+.banner{
+    text-align: center;
+}
+
+.banner h1{
+    font-family: 'Poppins';
+    font-size: 200px;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;   
+}
+
+.banner h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.banner a{
+    font-family: 'Poppins';
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.banner a:hover{
+    opacity: 1;
+}
+
+.back-video{
+    position: absolute;
+    top: 85px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+/* Paragraph 1 */
+
+.content{
+    position: relative;
+    width: 100%;
+    height: 160vh;
+    background-color: #C3A78F;
+}
+
+.content img{   
+    position: relative;
+    top: 150px;
+    max-width: 1000px;
+    float: left;
+    margin-right: 15px;
+}
+
+.content h1{
+    position: relative;
+    top: 50px;
+    font-size: 5rem;
+    top:100px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.content p{
+    position: relative;
+    top: 200px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 100px;
+    font-family: 'Poppins';
+}
+
+.content h2{
+    position: relative;
+    top:300px;
+    font-size: 3rem;
+    text-align: center;    
+    margin-right: 100px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+/* Paragraph 2 */
+
+#paraTwo{
+    position: relative;
+    width: 100%;
+    height: 160vh;
+    background-color: #997356;
+}
+
+#h1paraTwo{
+    position: relative;
+    top: 50px;
+    font-size: 5rem;
+    top:100px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+#paraTwoIMG{
+    position: relative;
+    top: 150px;
+    max-width: 700px;
+    float: right;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#paraTwoP{
+    position: relative;
+    top: 200px;
+    font-size: 1.5rem;  
+    margin-left: 100px;
+    text-align: left;
+    font-family: 'Poppins';
+}
+
+/* Paragraph 3*/
+
+#para3{
+    position: relative;
+    width: 100%;
+    height: 105vh;
+    background-color: #DCD5C9;
+}
+
+#para3h1{
+    position: relative;
+    top: 50px;
+    font-size: 5rem;
+    top:100px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+#para3Img{   
+    position: relative;
+    top: 150px;
+    max-width: 700px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#para3P{
+    position: relative;
+    top: 200px;
+    font-size: 1.5rem;  
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Poppins';
+}
+
+/* Paragraph 4 */
+
+#para4{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: #DCD5C9;
+}
+
+#para4Img{   
+    position: relative;
+    top: 150px;
+    max-width: 1000px;
+    float: right;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#para4P{
+    position: relative;
+    top: 200px;
+    font-size: 1.5rem;  
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Poppins';
+}
+
+/*Image Grid*/
+
+#imageGrid{
+    position: relative;
+    background-color: #313A2B;
+    height: 295vh;
+    overflow: hidden;
+}
+
+.imageGrid{
+    max-width: 85%;
+    margin:20px auto;
+}
+  
+.imageGrid .image-container{
+    columns:3 250px;
+    gap:15px;
+}
+
+.imageGrid .image-container img{
+    margin-bottom: 10px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+/* Footer */
+
+footer{
+    position: relative;
+    background-color: #111111;
+    height: 27vh;
+    width: auto;
+    font-family: 'Poppins';
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footerContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footerContent h3{
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footerContent p{
+    max-width: 500px;
+    margin: 20px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    overflow: hidden;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 2rem;
+    transition: opacity 0.8;
+}
+
+.socials a i{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    width: auto;
+    height: 50px;
+    padding-top: 12px;
+    text-align: center;
+}
