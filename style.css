@@ -401,6 +401,7 @@ footer{
 .contactBox{
     font-family: 'Poppins';
     margin-top: 100px;
+    margin-left: 600px;
     display: flex;
 }
 
